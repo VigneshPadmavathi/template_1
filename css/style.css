@@ -1,0 +1,45 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Edu+TAS+Beginner&family=Josefin+Sans:ital@1&family=Lato:ital,wght@0,300;0,400;1,400&family=Lora:ital@1&family=Montserrat&family=Pacifico&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Edu+TAS+Beginner&family=Josefin+Sans:ital@1&family=Lato:ital,wght@0,300;0,400;1,400&family=Lora:ital@1&family=Montserrat&family=Pacifico&family=Young+Serif&display=swap');
+*{
+    box-sizing: border-box;
+}
+.font-1{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;  
+}
+.font-2{
+    font-family: 'Edu TAS Beginner', cursive;
+}
+.img{
+    background-image: url(../images/bg_1.webp);
+    background-size: cover;
+}
+.bg-colo{
+    background-color: rgba(0, 0, 0, 0.514);
+    
+}
+.lin{
+    margin:7px 14px 0 14px;
+}
+.fs{
+    font-size: 30px;
+    font-weight: bold ;
+    
+}
+.fs-1{
+    font-size: 24px;
+}
+.fs-2{
+    font-size: 70px;
+    line-height: 100%;
+}
+.fs-3{
+    font-size: 30px;
+}
+.fs-4{
+    font-size: 35px;
+}
+.fs-5{
+    height: 70vh;
+}
