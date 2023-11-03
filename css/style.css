@@ -16,7 +16,7 @@
     background-size: cover;
 }
 .bg-colo{
-    background-color: rgba(0, 0, 0, 0.514);
+    background-color: rgba(0, 0, 0, 0.648);
     
 }
 .lin{
@@ -42,4 +42,44 @@
 }
 .fs-5{
     height: 70vh;
+}
+.text-clr{
+    color: #5c5656;
+}
+.fs-6{
+    font-size: 24px;
+}
+.fs-7{
+    font-size: 14px;
+}
+.cd-img{
+    height: 250px;
+}
+.img-2{
+    background-image: url(../images/bg_2.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.pad-1{
+    padding-top: 100px;
+}
+.pad-1 h1{
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+.pad{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    
+}
+.fs-7{
+    font-size: 22px;
+    padding-bottom: 80px;
+}
+.rounded-circle{
+    font-size: 30px;
+}
+.hei{
+    /* height: 100vh; */
 }
