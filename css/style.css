@@ -1,6 +1,13 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 @import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Edu+TAS+Beginner&family=Josefin+Sans:ital@1&family=Lato:ital,wght@0,300;0,400;1,400&family=Lora:ital@1&family=Montserrat&family=Pacifico&family=Young+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Edu+TAS+Beginner&family=Josefin+Sans:ital@1&family=Lato:ital,wght@0,300;0,400;1,400&family=Lora:ital@1&family=Montserrat&family=Pacifico&family=Young+Serif&display=swap');
+a{
+    text-decoration: none !important;
+}
+li{
+    list-style-type: none !important;
+}
+
 *{
     box-sizing: border-box;
 }
@@ -80,6 +87,24 @@
 .rounded-circle{
     font-size: 30px;
 }
-.hei{
-    /* height: 100vh; */
+.iw{
+    width: 12vw;
+}
+.fs-8{
+    font-size: 21px;
+}
+/* .ih{
+    height: 46vh;
+} */
+.bg-bl{
+    background-color: black;
+}
+.fs-9{
+    font-size: 35px;
+}
+.fs-6 li{
+    line-height: 7vh;
+}
+.pad-icon i{
+    padding-right:30px;;
 }
