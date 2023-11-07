@@ -11,9 +11,9 @@
     <script src="/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="img">
-        <div class="bg-colo">
-            <div class="container-fluid">
+    <div class="img pb-5">
+        <div class="bg-colo"> 
+            <div class="container-fluid"> 
                 <div class=" col-11 mx-auto" >
                     <nav class="navbar navbar-expand-lg py-5 font-1 ">
                         <div class="navbar-brand">
@@ -24,18 +24,18 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                           <div class="navbar-nav ml-auto fs-1">
-                            <a class="nav-link active text-warning" href="#">Home <span class="sr-only">(current)</span></a>
-                            <a class="nav-link text-white" href="#">About</a>
-                            <a class="nav-link text-white" href="#">Pricing</a>
-                            <a class="nav-link text-white" href="#">Our Car</a>
-                            <a class="nav-link text-white" href="#">Blog</a>
-                            <a class="nav-link text-white" href="#">Contact</a>
+                            <a class=" active text-warning" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class=" text-white" href="#">About</a>
+                            <a class=" text-white" href="#">Pricing</a>
+                            <a class=" text-white" href="#">Our Car</a>
+                            <a class=" text-white" href="#">Blog</a>
+                            <a class=" text-white" href="#">Contact</a>
                           </div>
                         </div>
                       </nav>
                     <div class="row">
                         <div class="col-lg-6 my-5 col-md-12 col-12">
-                            <p class="text-white font-1 fs-2">Now <br> its easy for you <br> rent a car</p>
+                            <p class="text-white font-1 fs-2 font-weight-light">Now <br> its easy for you <br> rent a car</p>
                             <p class="text-white fs-3">A small river named Duden flows byt their place with supplies it with the necessary
                                 regeliala. It is a paradisematic country, in which roasted parts.
                             </p>
@@ -45,7 +45,8 @@
                                 <p class="text-white fs-3">Easy steps for renting a car.</p>
                             </div>
                         </div>
-                        <form class="col-lg-4 col-md-12 col-12 bg-light rounded mx-auto font-weight-bold my-5 fs-5 ">
+                        <!-- <div class="frm"> -->
+                          <form class="col-lg-4 col-md-12 col-12 bg-light rounded mx-auto font-weight-bold my-5 ml-5  fs-5">
                             <div class="form-group">
                               <label for="inputAddress" class="mt-4">PICK-UP LOCATION</label>
                               <input type="text" class="form-control" id="inputAddress" placeholder="City, Airport, Station, etc">
@@ -68,10 +69,11 @@
                                 <label for="inputAddress2"class="mt-3">PICK-UP TIME</label>
                                 <input type="text" class="form-control" id="inputAddress2" placeholder="Time">
                               </div>
-                              <div class="text-center">
-                                <button type="submit" class="btn btn-primary mt-1 col-md-6 text-center">Search Vechile</button>
+                              <div class="form-group text-center">
+                                <button type="submit" class="btn btn-warning mt-1 col-lg-12 py-3 col-md-6 text-center">Search Vechile</button>
                               </div>
                           </form>
+                        <!-- </div> -->
                     </div>
                 </div>
             </div>
@@ -79,36 +81,36 @@
     </div>
     <div class="container-fluid">
         <div class="form-row ml-5 mt-5 ">
-            <div class="col-lg-2 col-md-5 mb-5 mr-5">
+            <div class="col-lg-2 col-md-5 mb-5 mr-3">
               <label for="validationDefault03">Select Model</label>
               <select class="custom-select" required>
                 <option selected disabled value="">Choose</option>
                 <option>1</option>
               </select>
             </div>
-            <div class="col-lg-2 col-md-5 mb-3 mr-5">
+            <div class="col-lg-2 col-md-5 mb-3 mr-3">
               <label for="validationDefault04">Select Brand </label>
               <select class="custom-select" required>
                 <option value="">Choose</option>
                 <option>1</option>
               </select>
             </div>
-            <div class="col-lg-2 col-md-5 mb-3 mr-5">
+            <div class="col-lg-2 col-md-5 mb-3 mr-3">
               <label for="validationDefault05">Year Model</label>
               <select class="custom-select" required>
                 <option value="">Choose</option>
                 <option>1</option>
               </select>
             </div>
-            <div class="col-lg-2 col-md-5 mb-3 mr-5">
+            <div class="col-lg-2 col-md-5 mb-3 mr-3">
                 <label for="validationDefault05">Price Limit</label>
                 <select class="custom-select" required>
                     <option value="">Choose</option>
                     <option>1</option>
                   </select>
             </div>
-            <div class="col-lg-2 mb-3 col-md-12 text-center">
-                <button type="button" class="border bg-warning col-md-6 font-weight-bold mt-4 py-3">Search</button>
+            <div class="col-lg-3 mb-3 col-md-12 text-center">
+                <button type="button" class="border bg-warning col-lg-9 col-md-6 font-weight-bold mt-4 px-3  py-3">Search</button>
             </div> 
         </div>
       </div>    
@@ -149,9 +151,9 @@
               <div class="card">
                 <img src="/images/car-1.webp"  class="card-img" alt="Red color Mercedes-Benz">
                 <div class="card-img-overlay  text-white">
-                <div class="row col-7 bg-light">
-                  <div class="col-6 fs-6 text-warning">$25</div>
-                  <div class="col-"> <span class="text-muted">FROM</span><br> <span class="text-dark">/DAY</span></div>
+                <div class="row col-5 bg-light overlay">
+                  <div class=" fs-6 text-warning pr-2">$25</div>
+                  <div> <span class="text-muted">FROM</span><br> <span class="text-dark">/DAY</span></div>
                 </div>
                 </div>
               <div class="card-body">
@@ -167,12 +169,12 @@
             <div class="col-lg-3 col-md-6">
               <div class="card ">
                 <img src="/images/car-2.webp"  class="card-img cd-img" alt="Red color Mercedes-Benz">
-                 <div class="card-img-overlay  text-white">
-                  <div class="row col-7 align-self-end">
-                    <div class="col-6 fs-6 text-warning">$25</div>
-                    <div class="col-">FROM<br>/DAY</div>
+                  <div class="card-img-overlay  text-white">
+                  <div class="row col-5 bg-light overlay">
+                    <div class=" fs-6 text-warning pr-2">$25</div>
+                    <div> <span class="text-muted">FROM</span><br> <span class="text-dark">/DAY</span></div>
                   </div>
-                 </div>
+                  </div>
                  <div class="card-body">
                    <h5 class="card-title">Mercedes Grand Sedan</h5>
                    <p class="card-text text-muted text-center">Ford</p>
@@ -187,12 +189,12 @@
             <div class="col-lg-3 col-md-6 mb-3">
               <div class="card">
                 <img src="/images/car-3.webp"  class="card-img cd-img" alt="Red color Mercedes-Benz">
-                 <div class="card-img-overlay  text-white">
-                  <div class="row col-7 align-self-end">
-                    <div class="col-6 fs-6 text-warning">$25</div>
-                    <div class="col-">FROM<br>/DAY</div>
+                <div class="card-img-overlay  text-white">
+                  <div class="row col-5 bg-light overlay">
+                    <div class=" fs-6 text-warning pr-2">$25</div>
+                    <div> <span class="text-muted">FROM</span><br> <span class="text-dark">/DAY</span></div>
                   </div>
-                 </div>
+                  </div>
                 <div class="card-body">
                   <h5 class="card-title">Mercedes Grand Sedan</h5>
                   <p class="card-text text-muted text-center">Cheverolet</p>
@@ -207,12 +209,12 @@
             <div class="col-lg-3 col-md-6">
               <div class="card">
                 <img src="/images/car-4.webp"  class="card-img" alt="Red color Mercedes-Benz">
-                 <div class="card-img-overlay  text-white">
-                  <div class="row col-7 align-self-end">
-                    <div class="col-6 fs-6 text-warning">$25</div>
-                    <div class="col-">FROM<br>/DAY</div>
+                <div class="card-img-overlay  text-white">
+                  <div class="row col-5 bg-light overlay">
+                    <div class=" fs-6 text-warning pr-2">$25</div>
+                    <div> <span class="text-muted">FROM</span><br> <span class="text-dark">/DAY</span></div>
                   </div>
-                 </div>
+                  </div>
                 <div class="card-body">
                   <h5 class="card-title">Mercedes Grand Sedan</h5>
                   <p class="card-text text-muted text-center">Mercedes</p>
@@ -226,12 +228,12 @@
             <div class="col-lg-3 col-md-6 mb-3">
               <div class="card">
                 <img src="/images/car-1.webp" class="card-img" alt="Red color Mercedes-Benz">
-                 <div class="card-img-overlay  text-white">
-                  <div class="row col-7 align-self-end">
-                    <div class="col-6 fs-6 text-warning">$25</div>
-                    <div class="col-">FROM<br>/DAY</div>
+                <div class="card-img-overlay  text-white">
+                  <div class="row col-5 bg-light overlay">
+                    <div class=" fs-6 text-warning pr-2">$25</div>
+                    <div> <span class="text-muted">FROM</span><br> <span class="text-dark">/DAY</span></div>
                   </div>
-                 </div>
+                  </div>
                 <div class="card-body">
                   <h5 class="card-title">Mercedes Grand Sedan</h5>
                   <p class="card-text text-muted text-center">Audi</p>
@@ -247,12 +249,12 @@
             <div class="col-lg-3 col-md-6">
               <div class="card">
                 <img src="/images/car-2.webp"  class="card-img cd-img" alt="Red color Mercedes-Benz">
-                 <div class="card-img-overlay  text-white">
-                  <div class="row col-7 align-self-end">
-                    <div class="col-6 fs-6 text-warning">$25</div>
-                    <div class="col-">FROM<br>/DAY</div>
+                <div class="card-img-overlay  text-white">
+                  <div class="row col-5 bg-light overlay">
+                    <div class=" fs-6 text-warning pr-2">$25</div>
+                    <div> <span class="text-muted">FROM</span><br> <span class="text-dark">/DAY</span></div>
                   </div>
-                 </div>
+                  </div>
                 <div class="card-body">
                   <h5 class="card-title">Mercedes Grand Sedan</h5>
                   <p class="card-text text-muted text-center">Ford</p>
@@ -267,12 +269,12 @@
             <div class="col-lg-3 col-md-6">
               <div class="card">
                 <img src="/images/car-3.webp"  class="card-img cd-img" alt="Red color Mercedes-Benz">
-                 <div class="card-img-overlay  text-white">
-                  <div class="row col-7 align-self-end">
-                    <div class="col-6 fs-6 text-warning">$25</div>
-                    <div class="col-">FROM<br>/DAY</div>
+                <div class="card-img-overlay  text-white">
+                  <div class="row col-5 bg-light overlay">
+                    <div class=" fs-6 text-warning pr-2">$25</div>
+                    <div> <span class="text-muted">FROM</span><br> <span class="text-dark">/DAY</span></div>
                   </div>
-                 </div>
+                  </div>
                 <div class="card-body">
                   <h5 class="card-title">Mercedes Grand Sedan</h5>
                   <p class="card-text text-muted text-center">Cheverolet</p>
@@ -287,12 +289,12 @@
             <div class="col-lg-3 col-md-6">
               <div class="card">
                 <img src="/images/car-4.webp"  class="card-img" alt="Red color Mercedes-Benz">
-                 <div class="card-img-overlay  text-white">
-                  <div class="row col-7 align-self-end">
-                    <div class="col-6 fs-6 text-warning">$25</div>
-                    <div class="col-">FROM<br>/DAY</div>
+                <div class="card-img-overlay  text-white">
+                  <div class="row col-5 bg-light overlay">
+                    <div class=" fs-6 text-warning pr-2">$25</div>
+                    <div> <span class="text-muted">FROM</span><br> <span class="text-dark">/DAY</span></div>
                   </div>
-                 </div>
+                  </div>
                 <div class="card-body">
                   <h5 class="card-title">Mercedes Grand Sedan</h5>
                   <p class="card-text text-muted text-center">Mercedes</p>
@@ -437,7 +439,7 @@
 
           <div class="col-lg-4">
             <div class="card border-0 ">
-              <img class="px-4 ih" src="images/image_2.webp" alt="">
+              <img class="px-4 ih" src="images/Untitled.png" alt="">
             </div>
             <div class="card-body">
               <p class="text-left text-muted">JULY. 24, 2019  ADMIN <i class="bi bi-chat-left-text-fill"></i> 3</p>

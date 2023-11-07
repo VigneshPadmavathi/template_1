@@ -1,110 +1,129 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
-@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Edu+TAS+Beginner&family=Josefin+Sans:ital@1&family=Lato:ital,wght@0,300;0,400;1,400&family=Lora:ital@1&family=Montserrat&family=Pacifico&family=Young+Serif&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Edu+TAS+Beginner&family=Josefin+Sans:ital@1&family=Lato:ital,wght@0,300;0,400;1,400&family=Lora:ital@1&family=Montserrat&family=Pacifico&family=Young+Serif&display=swap');
-a{
-    text-decoration: none !important;
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Edu+TAS+Beginner&family=Josefin+Sans:ital@1&family=Lato:ital,wght@0,300;0,400;1,400&family=Lora:ital@1&family=Montserrat&family=Pacifico&family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Edu+TAS+Beginner&family=Josefin+Sans:ital@1&family=Lato:ital,wght@0,300;0,400;1,400&family=Lora:ital@1&family=Montserrat&family=Pacifico&family=Young+Serif&display=swap");
+a {
+  text-decoration: none !important;
 }
-li{
-    list-style-type: none !important;
+li {
+  list-style-type: none !important;
 }
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-.font-1{
-    font-family: 'Montserrat', sans-serif; 
-    font-weight: bold;  
+.font-1 {
+  font-family: "Montserrat", sans-serif;
 }
-.font-2{
-    font-family: 'Edu TAS Beginner', cursive;
+
+.font-2 {
+  font-family: "Edu TAS Beginner", cursive;
 }
-.img{
-    background-image: url(../images/bg_1.webp);
-    background-size: cover;
+.img {
+  background-image: url(../images/bg_1.webp);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: auto;
+  position: relative;
 }
-.bg-colo{
-    background-color: rgba(0, 0, 0, 0.648);
-    
-}
-.lin{
-    margin:7px 14px 0 14px;
-}
-.fs{
-    font-size: 30px;
-    font-weight: bold ;
-    
-}
-.fs-1{
-    font-size: 24px;
-}
-.fs-2{
-    font-size: 70px;
-    line-height: 100%;
-}
-.fs-3{
-    font-size: 30px;
-}
-.fs-4{
-    font-size: 35px;
-}
-.fs-5{
-    height: 70vh;
-}
-.text-clr{
-    color: #5c5656;
-}
-.fs-6{
-    font-size: 24px;
-}
-.fs-7{
-    font-size: 14px;
-}
-.cd-img{
-    height: 250px;
-}
-.img-2{
-    background-image: url(../images/bg_2.webp);
-    background-size: cover;
-    background-position: center;
+.img::before {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
     width: 100%;
-}
-.pad-1{
-    padding-top: 100px;
-}
-.pad-1 h1{
-    padding-top: 10px;
-    padding-bottom: 100px;
-}
-.pad{
-    padding-top: 40px;
-    padding-bottom: 20px;
-    
-}
-.fs-7{
-    font-size: 22px;
-    padding-bottom: 80px;
-}
-.rounded-circle{
-    font-size: 30px;
-}
-.iw{
-    width: 12vw;
-}
-.fs-8{
-    font-size: 21px;
-}
-/* .ih{
-    height: 46vh;
+  }
+/* .bg-colo {
+  background-color: rgba(0, 0, 0, 0.648);
+  height: 100%;
 } */
-.bg-bl{
-    background-color: black;
+.lin {
+  margin: 7px 14px 0 14px;
 }
-.fs-9{
-    font-size: 35px;
+.fs {
+  font-size: 30px;
+  font-weight: bold;
 }
-.fs-6 li{
-    line-height: 7vh;
+.fs-1 {
+  font-size: 15px;
 }
-.pad-icon i{
-    padding-right:30px;;
+.fs-1 a {
+  padding-right: 35px;
+}
+.fs-2 {
+  font-size: 70px;
+  line-height: 100%;
+}
+.fs-3 {
+  font-size: 30px;
+}
+.fs-4 {
+  font-size: 35px;
+}
+.fs-5 {
+  height: 70vh;
+}
+.text-clr {
+  color: #5c5656;
+}
+.fs-6 {
+  font-size: 24px;
+}
+.fs-7 {
+  font-size: 14px;
+}
+.cd-img {
+  height: 250px;
+}
+.img-2 {
+  background-image: url(../images/bg_2.webp);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.pad-1 {
+  padding-top: 100px;
+}
+.pad-1 h1 {
+  padding-top: 10px;
+  padding-bottom: 100px;
+}
+.pad {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.fs-7 {
+  font-size: 22px;
+  padding-bottom: 80px;
+}
+.rounded-circle {
+  font-size: 30px;
+}
+.iw {
+  width: 12vw;
+}
+.fs-8 {
+  font-size: 21px;
+}
+.hei{
+    background-color: #00000069;
+}
+.bg-bl {
+  background-color: black;
+}
+.fs-9 {
+  font-size: 35px;
+}
+.fs-6 li {
+  line-height: 7vh;
+}
+.pad-icon i {
+  padding-right: 30px;
+}
+.overlay{
+  top: 163px;
+  right: 6px;
 }
